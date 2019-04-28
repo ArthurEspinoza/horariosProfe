@@ -1,3 +1,8 @@
+<?php
+session_start();
+$nombreUsuario = $_SESSION['nombre'];
+$idProfe = $_SESSION['noTrabajador']
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,9 +29,10 @@
         <div id="logo">
             <img src="img/logo.png" alt="logo">
         </div>
-        <a href="horario.html">Mis Horarios</a>
+        <a href="horario.php">Mis Horarios</a>
         <a href="#addbitacora" class="active">Añadir Bitacora</a>
         <a href="perfil.html">Ver Mi Perfil</a>
+        <a href="#">Bienvenido <?php echo $nombreUsuario?></a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
