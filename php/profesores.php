@@ -1,0 +1,60 @@
+<?php 
+ include('config.php');
+ $conn = getDB();
+ $tabla = "";
+ $query = "SELECT * FROM profesor ORDER BY noTrabajador";
+ $q;
+ if(isset($_POST['consulta'])){
+     //echo "<script>alert('entre al if')</script>";
+     //$q = $conn->real_escape_string($_POST['alumnos']);
+     $q = '%'.$_POST['consulta'].'%';
+     //echo $q;
+     $query = "SELECT * FROM profesor WHERE nombre LIKE '$q'";
+ }
+ //echo $query;
+ $consulta = $conn->prepare($query);
+ //$consulta->bindParam(':q',$q,PDO::PARAM_STR);
+ $consulta->execute();
+ if($consulta->rowCount()>0){
+     $tabla.="
+     <table>
+         <tr>
+         <th>Numero de Trabajador</th>
+         <th>Nombre</th>
+         <th>Email</th>
+         <th>Cubiculo</th>
+         <th></th>
+         </tr>";
+     
+     while ($datos = $consulta->fetch(PDO::FETCH_ASSOC)) {
+         $tabla.='
+         <tr>
+             <td>'.$datos['noTrabajador'].'</td>
+             <td>'.$datos['nombre'].'</td>
+             <td>'.$datos['email'].'</td>
+             <td>'.$datos['cubiculo'].'</td>
+             <td><a href="verHorario.php">Ver horario</a></td>
+         </tr>
+         ';
+     }
+     $tabla.='</table>';
+ }else{
+     $tabla="No se encontraron resultados con sus criterios de busqueda.";
+ }
+ echo $tabla;
+ //include('config.php');
+// $conn = getDB();
+// //$request = $conn->quote($_POST['query']);
+// $request = 'josue';
+// $query = "SELECT nombre FROM profesor WHERE nombre LIKE '%".$request."%'";
+// $consulta = $conn->prepare($query);
+// $consulta->execute();
+// $data = array();
+// if($consulta->rowCount()>0){
+//     while($row=$consulta->fetch(PDO::FETCH_ASSOC))
+//     {
+//         $data[] = $row['nombre'];
+//     }
+// }
+// echo json_encode($data);
+?>

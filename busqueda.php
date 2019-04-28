@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,10 +15,12 @@
         <h2>Ingresa el Nombre del Profesor a Buscar</h2>
     </div>
     <div class="search-container">
-        <input type="text" name="Busqueda" id="busquedaid" placeholder="Escribe el nombre completo en Mayusculas">
-        <button type="submit"><i class="fa fa-search"></i></button>
-        <button onclick="location.href='login.html'">Ingresar</button>
+        <input type="text" name="busqueda" id="busqueda" placeholder="Escribe el nombre completo en Mayusculas">
+        <button onclick="location.href='login.php'">Ingresar</button>
     </div>
+    <section id="datos"><!--Aqui se va a mostrar el resultado--></section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
