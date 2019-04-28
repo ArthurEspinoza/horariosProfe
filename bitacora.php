@@ -31,7 +31,8 @@ $idProfe = $_SESSION['noTrabajador']
         </div>
         <a href="horario.php">Mis Horarios</a>
         <a href="#addbitacora" class="active">Añadir Bitacora</a>
-        <a href="perfil.html">Ver Mi Perfil</a>
+        <!-- <a href="perfil.html">Ver Mi Perfil</a> -->
+        <a href="php/destroy.php"class="active">Cerrar Sesión</a>
         <a href="#">Bienvenido <?php echo $nombreUsuario?></a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
