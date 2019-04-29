@@ -1,3 +1,13 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horarios BUAP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/busqueda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <?php 
  include('config.php');
  $conn = getDB();
@@ -16,16 +26,19 @@
  //$consulta->bindParam(':q',$q,PDO::PARAM_STR);
  $consulta->execute();
  if($consulta->rowCount()>0){
-     $tabla.="
-     <table>
-         <tr>
+     $tabla.='
+     <table class="table table-sm">
+        <thead> 
+        <tr>
          <th>Numero de Trabajador</th>
          <th>Nombre</th>
          <th>Email</th>
          <th>Cubiculo</th>
          <th></th>
-         </tr>";
-     
+         </tr>
+         </thead>
+         ';
+         //<td><a href="verHorario.php" >Ver horario</a></td>
      while ($datos = $consulta->fetch(PDO::FETCH_ASSOC)) {
          $tabla.='
          <tr>
@@ -33,7 +46,7 @@
              <td>'.$datos['nombre'].'</td>
              <td>'.$datos['email'].'</td>
              <td>'.$datos['cubiculo'].'</td>
-             <td><a href="verHorario.php">Ver horario</a></td>
+             <td><a href="php/verHorario.php?profe='.urlencode($datos['noTrabajador']).'">Ver horario</a></td>
          </tr>
          ';
      }

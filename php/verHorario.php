@@ -1,7 +1,8 @@
 <?php
-session_start();
-$nombreUsuario = $_SESSION['nombre'];
-$idProfe = $_SESSION['noTrabajador']
+include('config.php');
+$conn = getDB();
+$idProf = $_GET['profe'];
+//echo $idProf;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,59 +12,34 @@ $idProfe = $_SESSION['noTrabajador']
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/horario.css">
-    <title>Mis Horarios</title>
+    <link rel="stylesheet" href="../css/horario.css">
+    <title>Horario Profesor</title>
 </head>
-
 <body>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-    <div class="topnav" id="myTopnav">
-        <div id="logo">
-            <img src="img/logo.png" alt="logo">
-        </div>
-        <a href="#horario" class="active">Mi Horario</a>
-        <a href="bitacora.php">Añadir Bitácora</a>
-        <a href="mostrarBitacora.php">Ver Bitácoras</a>
-        <a href="php/destroy.php"class="active">Cerrar Sesión</a>
-        <a href="#">Bienvenido <?php echo $nombreUsuario?></a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <div>
-    <?php
-    $mysqli = new mysqli('localhost', 'root', 'root', 'horario');
-
-    if ($mysqli->connect_error) {
-        die('Connect Error (' . $mysqli->connect_errno . ') '
-                . $mysqli->connect_error);
-    }
-
-    if (mysqli_connect_error()) {
-        die('Connect Error (' . mysqli_connect_errno() . ') '
-                . mysqli_connect_error());
-    }
-    $busqueda1=$mysqli->query("SELECT * from lunes where noTrabajador='$idProfe'");
-    $busqueda2=$mysqli->query("SELECT * from martes where noTrabajador='$idProfe'");
-    $busqueda3=$mysqli->query("SELECT * from miercoles where noTrabajador='$idProfe'");
-    $busqueda4=$mysqli->query("SELECT * from jueves where noTrabajador='$idProfe'");
-    $busqueda5=$mysqli->query("SELECT * from viernes where noTrabajador='$idProfe'");
-
-    while($datos1=$busqueda1->fetch_array()){
-        while($datos2=$busqueda2->fetch_array()){
-            while($datos3=$busqueda3->fetch_array()){
-                while($datos4=$busqueda4->fetch_array()){
-                    while($datos5=$busqueda5->fetch_array()){
-    ?>
+    <section>
+        <?php
+            $busqueda1 = $conn->prepare('SELECT * FROM lunes WHERE noTrabajador=:noTra');
+            $busqueda2 = $conn->prepare('SELECT * FROM martes WHERE noTrabajador=:noTra');
+            $busqueda3 = $conn->prepare('SELECT * FROM miercoles WHERE noTrabajador=:noTra');
+            $busqueda4 = $conn->prepare('SELECT * FROM jueves WHERE noTrabajador=:noTra');
+            $busqueda5 = $conn->prepare('SELECT * FROM viernes WHERE noTrabajador=:noTra');
+            $busqueda1->bindParam(':noTra',$idProf,PDO::PARAM_STR);
+            $busqueda2->bindParam(':noTra',$idProf,PDO::PARAM_STR);
+            $busqueda3->bindParam(':noTra',$idProf,PDO::PARAM_STR);
+            $busqueda4->bindParam(':noTra',$idProf,PDO::PARAM_STR);
+            $busqueda5->bindParam(':noTra',$idProf,PDO::PARAM_STR);
+            $busqueda1->execute();
+            $busqueda2->execute();
+            $busqueda3->execute();
+            $busqueda4->execute();
+            $busqueda5->execute();
+            while($datos1=$busqueda1->fetch(PDO::FETCH_ASSOC)){
+                while($datos2=$busqueda2->fetch(PDO::FETCH_ASSOC)){
+                    while($datos3=$busqueda3->fetch(PDO::FETCH_ASSOC)){
+                        while($datos4=$busqueda4->fetch(PDO::FETCH_ASSOC)){
+                            while($datos5=$busqueda5->fetch(PDO::FETCH_ASSOC)){
+                    
+        ?>
         <table id="tablaH" border="1px" align="center" class="table table-sm">
         <thead>
             <tr>
@@ -171,17 +147,15 @@ $idProfe = $_SESSION['noTrabajador']
             <td><?php echo $datos4["diezocho"]?></td>
             <td><?php echo $datos5["diezocho"]?></td>
         </tr>
-            <?php  
+    <?php 
                     }
                 }
-            }
-        } 
+            }    
+        }
     }
-     ?>
-    </table> 
-    </div>
-    <button id="btnH" type="button" class="btn btn-outline-primary"><a href="guardarHorario.php">Editar Horario</a></button>
-    
+    ?>
+    </table>
+    <a href="../busqueda.php" id="liga" class="stretch-link text-primary">Volver al buscador</a>
+    </section>
 </body>
-
 </html>

@@ -9,8 +9,10 @@ $idProfe = $_SESSION['noTrabajador'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/horario.css">
-    <title>Mis Horarios</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bitacora.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Mis Horario</title>
 </head>
 
 <body>
@@ -28,15 +30,26 @@ $idProfe = $_SESSION['noTrabajador'];
         <div id="logo">
             <img src="img/logo.png" alt="logo">
         </div>
-        <a href="horario.php">Mi Horario</a>
-        <a href="#mostarBitacoras"class="active">Bitacoras</a>
-        <a href="perfil.html">Ver Mi Perfil</a>
+        <a href="horario.php" class="active">Mis Horarios</a>
+        <a href="bitacora.php">Añadir Bitácora</a>
+        <a href="#mostrarBitacora.php">Ver Bitácoras</a>
+        <a href="php/destroy.php"class="active">Cerrar Sesión</a>
         <a href="#">Bienvenido <?php echo $nombreUsuario?></a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
     <div>
+    <table id ="tablaB" border="1px" align="center" class="table table-sm">
+        <thead>
+            <tr>
+                
+                <th>Fecha</th>
+                <th>Materia</th>
+                <th>Alumnos</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
     <?php
     $mysqli = new mysqli('localhost', 'root', 'root', 'horario');
 
@@ -49,27 +62,20 @@ $idProfe = $_SESSION['noTrabajador'];
         die('Connect Error (' . mysqli_connect_errno() . ') '
                 . mysqli_connect_error());
     }
-    $busqueda1=$mysqli->query("SELECT * from bitacora where noTrabajador='$idProfe'");
+    $busqueda1=$mysqli->query("SELECT * from bitacora where noTrabajador='$idProfe' ORDER BY fecha DESC");
     while($datos1=$busqueda1->fetch_array()){
     ?>
-        <table border="1px" align="center">
         <tr>
-            <th>Fecha</th>
-            <th>Materia</th>
-            <th>Alumnos</th>
-            <th>Descripción</th>
-        </tr>
-        <tr>
-            <th><?php echo $datos1["idbitacora"]?></th>
+            <!-- <th><?php echo $datos1["idbitacora"]?></th> -->
             <td><?php echo $datos1["fecha"]?></td>
             <td><?php echo $datos1["materia"]?></td>
-            <td><?php echo $datos3["alumnos"]?></td>
-            <td><?php echo $datos4["descripcion"]?></td>
+            <td><?php echo $datos1["alumnos"]?></td>
+            <td><?php echo $datos1["descripcion"]?></td>
         </tr>
     <?php
     }
     ?>
     </table>
     </div>
-</body
+</body>
 </html>

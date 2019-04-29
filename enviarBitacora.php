@@ -21,7 +21,7 @@ include('php/config.php');
     if($queryB->execute()){
         echo '<script>
              alert("Registro de bitácora realizado con exito");
-             window.location.href="horario.php";
+             window.location.href="mostrarBitacora.php";
              </script>';
     }else{
         echo '<script>

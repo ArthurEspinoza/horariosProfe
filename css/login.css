@@ -6,6 +6,10 @@ body {
     background-color: #FBFBFB;
 }
 
+#container {
+    margin: 10% 10% 0 10%;
+}
+
 .row::after {
     content: "";
     clear: both;

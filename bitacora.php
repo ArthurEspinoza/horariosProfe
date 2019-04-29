@@ -1,5 +1,7 @@
 <?php
 session_start();
+include('php/config.php');
+$conn = getDB();
 $nombreUsuario = $_SESSION['nombre'];
 $idProfe = $_SESSION['noTrabajador']
 ?>
@@ -10,7 +12,9 @@ $idProfe = $_SESSION['noTrabajador']
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Añadir bitacora</title>
+    <title>Añadir Bitácora</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bitacora.css">
 </head>
 
@@ -30,8 +34,8 @@ $idProfe = $_SESSION['noTrabajador']
             <img src="img/logo.png" alt="logo">
         </div>
         <a href="horario.php">Mis Horarios</a>
-        <a href="#addbitacora" class="active">Añadir Bitacora</a>
-        <!-- <a href="perfil.html">Ver Mi Perfil</a> -->
+        <a href="#bitacora.php" class="active">Añadir Bitácora</a>
+        <a href="mostrarBitacora.php">Ver Bitácoras</a>
         <a href="php/destroy.php"class="active">Cerrar Sesión</a>
         <a href="#">Bienvenido <?php echo $nombreUsuario?></a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -40,10 +44,10 @@ $idProfe = $_SESSION['noTrabajador']
     </div>
 
     <div id="instrucciones">
-        Complete el formulario con la información necesaria, al finalizar dar clic en el botón "Guardar Bitacora".
+        Complete el formulario con la información necesaria, al finalizar dar clic en el botón "Guardar Bitácora".
     </div>
     <fieldset id="formulario">
-        <legend>Información Bitacora</legend>
+        <legend>Información Bitácora</legend>
         <div>
             <form action="enviarBitacora.php" method="post">
                 <label for="fdate">Fecha</label>
@@ -54,10 +58,15 @@ $idProfe = $_SESSION['noTrabajador']
                 <input type="text" name="alumnos" id="alumnos" placeholder="Nombre de los alumnos separados por coma">
                 <label for="fdesc">Descripción</label>
                 <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Especifique todo lo que se abordó"></textarea>
-                <input type="submit" value="Guardar Bitacora" id="subbtn">
+                <input type="submit" class="btn btn-outline-primary" value="Guardar Bitácora" id="subbtn">
             </form>
         </div>
     </fieldset>
+    <section>
+        <?php
+
+        ?>
+    </section>
 </body>
 
 </html>
