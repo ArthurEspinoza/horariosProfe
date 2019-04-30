@@ -25,51 +25,51 @@
             <form name='datos' method='post' action='guardarDatos.php'> 
                 <select name='11'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>            
             </td>
             <td>
                 <select name='12'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='13'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='14'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='15'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
         </tr>
@@ -78,51 +78,51 @@
             <td>
                 <select name='21'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='22'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='23'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td> 
                 <select name='24'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
              <select name='25'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
         </tr>
@@ -131,51 +131,51 @@
             <td>
                 <select name='31'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='32'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='33'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='34'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='35'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
         </tr>
@@ -184,51 +184,51 @@
             <td>
                 <select name='41'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='42'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='43'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='44'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='45'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
         </tr>
@@ -237,51 +237,51 @@
             <td>
                 <select name='51'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select> 
             </td>
             <td>
                 <select name='52'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='53'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='54'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='55'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
         </tr>
@@ -290,51 +290,51 @@
             <td>
                 <select name='61'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='62'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='63'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='64'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='65'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
         </tr>
@@ -343,51 +343,51 @@
             <td>
                 <select name='71'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='72'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='73'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='74'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='75'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
         </tr>
@@ -396,51 +396,51 @@
             <td>
                 <select name='81'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='82'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='83'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='84'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='85'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
         </tr>
@@ -449,51 +449,51 @@
             <td>
                 <select name='91'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='92'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='93'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='94'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='95'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
 
@@ -502,51 +502,51 @@
             <td>
                 <select name='101'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='102'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='103'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='104'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='105'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
         </tr>
@@ -555,51 +555,51 @@
             <td>
                 <select name='111'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='112'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='113'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='114'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='115'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
         </tr>
@@ -608,51 +608,51 @@
             <td>
                 <select name='121'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='122'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='123'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='124'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
             <td>
                 <select name='125'>
                     <option value='' selected>-Seleccione-</option>
-                    <option value='Tutoria'>Tutoria</option>
-                    <option value='Asesoria'>Asesoria</option>
+                    <option value='Tutoría'>Tutoría</option>
+                    <option value='Asesoría'>Asesoría</option>
                     <option value='Docencia'>Docencia</option>
-                    <option value='Investigacion'>Investigación</option>
-                    <option value='Gestion Academica'>Gestión Académica</option>
+                    <option value='Investigación'>Investigación</option>
+                    <option value='Gestión Académica'>Gestión Académica</option>
                 </select>
             </td>
         </tr>

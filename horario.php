@@ -1,4 +1,5 @@
 <?php
+header("Content-type:text/html; charset=utf-8");
 session_start();
 $nombreUsuario = $_SESSION['nombre'];
 $idProfe = $_SESSION['noTrabajador']
@@ -6,7 +7,7 @@ $idProfe = $_SESSION['noTrabajador']
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -52,6 +53,7 @@ $idProfe = $_SESSION['noTrabajador']
         die('Connect Error (' . mysqli_connect_errno() . ') '
                 . mysqli_connect_error());
     }
+    $acentos = $mysqli->query("set names 'utf-8'");
     $busqueda1=$mysqli->query("SELECT * from lunes where noTrabajador='$idProfe'");
     $busqueda2=$mysqli->query("SELECT * from martes where noTrabajador='$idProfe'");
     $busqueda3=$mysqli->query("SELECT * from miercoles where noTrabajador='$idProfe'");

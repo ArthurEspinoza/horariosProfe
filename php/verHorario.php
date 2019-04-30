@@ -1,13 +1,15 @@
 <?php
-include('config.php');
-$conn = getDB();
-$idProf = $_GET['profe'];
+header("Content-type:text/html; charset=utf-8");
+//include('config.php');
+//$conn = getDB();
+//$conn->exec("set names 'utf8'");
+$idProfe = $_GET['profe'];
 //echo $idProf;
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,28 +20,30 @@ $idProf = $_GET['profe'];
 <body>
     <section>
         <?php
-            $busqueda1 = $conn->prepare('SELECT * FROM lunes WHERE noTrabajador=:noTra');
-            $busqueda2 = $conn->prepare('SELECT * FROM martes WHERE noTrabajador=:noTra');
-            $busqueda3 = $conn->prepare('SELECT * FROM miercoles WHERE noTrabajador=:noTra');
-            $busqueda4 = $conn->prepare('SELECT * FROM jueves WHERE noTrabajador=:noTra');
-            $busqueda5 = $conn->prepare('SELECT * FROM viernes WHERE noTrabajador=:noTra');
-            $busqueda1->bindParam(':noTra',$idProf,PDO::PARAM_STR);
-            $busqueda2->bindParam(':noTra',$idProf,PDO::PARAM_STR);
-            $busqueda3->bindParam(':noTra',$idProf,PDO::PARAM_STR);
-            $busqueda4->bindParam(':noTra',$idProf,PDO::PARAM_STR);
-            $busqueda5->bindParam(':noTra',$idProf,PDO::PARAM_STR);
-            $busqueda1->execute();
-            $busqueda2->execute();
-            $busqueda3->execute();
-            $busqueda4->execute();
-            $busqueda5->execute();
-            while($datos1=$busqueda1->fetch(PDO::FETCH_ASSOC)){
-                while($datos2=$busqueda2->fetch(PDO::FETCH_ASSOC)){
-                    while($datos3=$busqueda3->fetch(PDO::FETCH_ASSOC)){
-                        while($datos4=$busqueda4->fetch(PDO::FETCH_ASSOC)){
-                            while($datos5=$busqueda5->fetch(PDO::FETCH_ASSOC)){
-                    
-        ?>
+            $mysqli = new mysqli('localhost', 'root', 'root', 'horario');
+
+            if ($mysqli->connect_error) {
+                die('Connect Error (' . $mysqli->connect_errno . ') '
+                        . $mysqli->connect_error);
+            }
+        
+            if (mysqli_connect_error()) {
+                die('Connect Error (' . mysqli_connect_errno() . ') '
+                        . mysqli_connect_error());
+            }
+            $acentos = $mysqli->query("set names 'utf-8'");
+            $busqueda1=$mysqli->query("SELECT * from lunes where noTrabajador='$idProfe'");
+            $busqueda2=$mysqli->query("SELECT * from martes where noTrabajador='$idProfe'");
+            $busqueda3=$mysqli->query("SELECT * from miercoles where noTrabajador='$idProfe'");
+            $busqueda4=$mysqli->query("SELECT * from jueves where noTrabajador='$idProfe'");
+            $busqueda5=$mysqli->query("SELECT * from viernes where noTrabajador='$idProfe'");
+        
+            while($datos1=$busqueda1->fetch_array()){
+                while($datos2=$busqueda2->fetch_array()){
+                    while($datos3=$busqueda3->fetch_array()){
+                        while($datos4=$busqueda4->fetch_array()){
+                            while($datos5=$busqueda5->fetch_array()){
+            ?>
         <table id="tablaH" border="1px" align="center" class="table table-sm">
         <thead>
             <tr>

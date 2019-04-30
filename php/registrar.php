@@ -1,7 +1,8 @@
-<?php 
+<?php
+header("Content-type:text/html; charset=utf-8"); 
 include('config.php');
     $conexion = getDB();
-    echo "Estoy en el archivo";
+    //echo "Estoy en el archivo";
     $nombre = $_POST['nombre'];
     $email = $_POST['email'];
     $noTrabajo = $_POST['notrabajo'];
@@ -11,7 +12,7 @@ include('config.php');
     $stmt = $conexion->prepare($existente);
     $stmt->execute();
     if($stmt->rowCount()>0){
-        echo "Si hay algo";
+        echo "Existe un registro con la misma matricula";
     }else{
         try {
             $nuevousuario = $conexion->prepare("INSERT INTO profesor(noTrabajador,contra,nombre,email,cubiculo) 

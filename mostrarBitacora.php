@@ -4,9 +4,9 @@ $nombreUsuario = $_SESSION['nombre'];
 $idProfe = $_SESSION['noTrabajador'];
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equip="Content-type" content="text/html;" charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -62,15 +62,17 @@ $idProfe = $_SESSION['noTrabajador'];
         die('Connect Error (' . mysqli_connect_errno() . ') '
                 . mysqli_connect_error());
     }
+    
+    $acentos = $mysqli->query("set names 'utf-8'");
     $busqueda1=$mysqli->query("SELECT * from bitacora where noTrabajador='$idProfe' ORDER BY fecha DESC");
     while($datos1=$busqueda1->fetch_array()){
     ?>
         <tr>
             <!-- <th><?php echo $datos1["idbitacora"]?></th> -->
             <td><?php echo $datos1["fecha"]?></td>
-            <td><?php echo $datos1["materia"]?></td>
-            <td><?php echo $datos1["alumnos"]?></td>
-            <td><?php echo $datos1["descripcion"]?></td>
+            <td><?php echo utf8_encode($datos1["materia"])?></td>
+            <td><?php echo utf8_encode($datos1["alumnos"])?></td>
+            <td><?php echo utf8_encode($datos1["descripcion"])?></td>
         </tr>
     <?php
     }
